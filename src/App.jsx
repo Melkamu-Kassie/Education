@@ -18,7 +18,7 @@ const App = () => {
       <Hero />
       <div className="container">
         <Title subtitle="Our PROGRAM" title="What we offer" />
-        <Programs />
+        {/* <Programs /> */}
         <About setPlayState={setPlayState} />
         <Title subtitle="Gallery" title="Campus Photos" />
         <Campus />

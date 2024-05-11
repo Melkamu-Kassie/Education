@@ -16,7 +16,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <div className="container" >
+      <div className="container">
         <Title subtitle="Our PROGRAM" title="What we offer" />
         <Programs />
         <About setPlayState={setPlayState} />
